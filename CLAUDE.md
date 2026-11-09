@@ -20,7 +20,7 @@ Déploiement du site : push sur `main` (GitHub Pages sert la racine).
 - `worker/worker.js` : `SYSTEM_PROMPT` = base de connaissances de Happy ; CORS via `ALLOWED_ORIGIN` ; limite 10 req/60 s par IP.
 
 ## Règles de contenu
-- Frise : du plus récent au plus ancien ; icônes `#icon-wrench` (travail) et `#icon-book` (formation). Les centres d'intérêt ont leur propre section `#interests` (cartes `.interest-card`), hors de la frise.
+- Frise : du plus récent au plus ancien ; icônes `#icon-wrench` (travail) et `#icon-book` (formation). Diplômes (`#degrees`, `.degree-item`) et centres d'intérêt ont chacun leur propre section `#interests` (cartes `.interest-card`), hors de la frise.
 - Le slug `data-experience` d'une étape doit correspondre caractère pour caractère à celui de ses cartes ; `tabindex="0"` seulement si l'étape a ≥1 carte.
 - Si le chatbot est renommé, mettre à jour : `js/chatbot.js`, le HTML (lanceur, panneau, salutation, nudge) et `SYSTEM_PROMPT`.
 - Ne jamais publier l'adresse postale ni le téléphone (seul l'e-mail est public).
