@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Benjamin Simonnet — Technicien informatique</title>
+  <meta name="description" content="Benjamin Simonnet — technicien informatique polyvalent, du dépannage à la relation client. Charente." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600&family=Barlow+Condensed:wght@600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <nav class="site-nav" aria-label="Navigation principale">
+        <a href="#top">Accueil</a>
+        <a href="#projects">Parcours</a>
+        <a href="#connect">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Sprite d'icônes — utilisées par la frise -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="icon-wrench" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"/>
+    </symbol>
+    <symbol id="icon-book" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/>
+      <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/>
+    </symbol>
+    <symbol id="icon-sparkle" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M12 3l1.8 5.2L19 10l-5.2 1.8L12 17l-1.8-5.2L5 10l5.2-1.8L12 3z"/>
+      <path d="M19 16l.8 2.2L22 19l-2.2.8L19 22l-.8-2.2L16 19l2.2-.8L19 16z"/>
+    </symbol>
+  </svg>
+
+  <main id="top">
+    <!-- HERO -->
+    <section class="hero">
+      <div class="container">
+        <div class="hero-top">
+          <figure class="hero-photo">
+            <img src="assets/portrait.jpg" alt="Portrait de Benjamin Simonnet" width="600" height="900" />
+          </figure>
+          <div class="hero-text">
+            <h1 class="hero-title">Benjamin Simonnet</h1>
+            <p class="hero-location">Charente</p>
+            <p class="hero-tagline">Technicien informatique polyvalent, du dépannage à la relation client.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- PARCOURS -->
+    <section id="projects" class="section">
+      <div class="container section-grid">
+        <div class="section-head">
+          <p class="section-kicker">01 · Parcours</p>
+          <h2 class="section-title">Expériences</h2>
+          <aside class="timeline-rail" aria-label="Frise du parcours professionnel et de la formation">
+            <div class="tl-arrow" aria-hidden="true"></div>
+            <div class="tl-axis" aria-hidden="true"></div>
+            <ol class="tl-stops">
+              <li class="tl-stop tl-stop-work" data-experience="media" tabindex="0">
+                <svg class="tl-icon tl-icon-work" aria-hidden="true"><use href="#icon-wrench"/></svg>
+                <div class="tl-info">
+                  <strong>Media Concept</strong>
+                  <span>Technicien informatique</span>
+                  <em>2024 — 2026</em>
+                  <i class="tl-loc">Dépannage &amp; support client</i>
+                </div>
+              </li>
+              <li class="tl-stop tl-stop-vibe" data-experience="ia">
+                <svg class="tl-icon tl-icon-vibe" aria-hidden="true"><use href="#icon-sparkle"/></svg>
+                <div class="tl-info">
+                  <strong>IA &amp; développement</strong>
+                  <span>Centre d'intérêt</span>
+                  <em>Passion</em>
+                  <i class="tl-loc">Projets perso</i>
+                </div>
+              </li>
+              <li class="tl-stop tl-stop-vibe" data-experience="foot">
+                <svg class="tl-icon tl-icon-vibe" aria-hidden="true"><use href="#icon-sparkle"/></svg>
+                <div class="tl-info">
+                  <strong>Football</strong>
+                  <span>Encadrement de jeunes</span>
+                  <em>Passion</em>
+                  <i class="tl-loc">Centre d'intérêt</i>
+                </div>
+              </li>
+              <li class="tl-stop tl-stop-vibe" data-experience="bricolage">
+                <svg class="tl-icon tl-icon-vibe" aria-hidden="true"><use href="#icon-sparkle"/></svg>
+                <div class="tl-info">
+                  <strong>Bricolage</strong>
+                  <span>Rénovation</span>
+                  <em>Passion</em>
+                  <i class="tl-loc">Centre d'intérêt</i>
+                </div>
+              </li>
+              <li class="tl-stop tl-stop-work" data-experience="easycash" tabindex="0">
+                <svg class="tl-icon tl-icon-work" aria-hidden="true"><use href="#icon-wrench"/></svg>
+                <div class="tl-info">
+                  <strong>Easy Cash</strong>
+                  <span>Responsable téléphonie</span>
+                  <em>2023</em>
+                  <i class="tl-loc">Rayon &amp; stocks</i>
+                </div>
+              </li>
+              <li class="tl-stop tl-stop-work" data-experience="itc" tabindex="0">
+                <svg class="tl-icon tl-icon-work" aria-hidden="true"><use href="#icon-wrench"/></svg>
+                <div class="tl-info">
+                  <strong>ITC Phone</strong>
+                  <span>Responsable magasin</span>
+                  <em>2016 — 2022</em>
+                  <i class="tl-loc">Réparation &amp; gestion</i>
+                </div>
+              </li>
+              <li class="tl-stop tl-stop-work" data-experience="cg16" tabindex="0">
+                <svg class="tl-icon tl-icon-work" aria-hidden="true"><use href="#icon-wrench"/></svg>
+                <div class="tl-info">
+                  <strong>Conseil Général de la Charente</strong>
+                  <span>Alternance · Administrateur réseaux</span>
+                  <em>2012 — 2014</em>
+                  <i class="tl-loc">Charente</i>
+                </div>
+              </li>
+              <li class="tl-stop tl-stop-edu" data-experience="cesi">
+                <svg class="tl-icon tl-icon-edu" aria-hidden="true"><use href="#icon-book"/></svg>
+                <div class="tl-info">
+                  <strong>CESI Angoulême</strong>
+                  <span>GMSI · Maintenance &amp; support informatique</span>
+                  <em>2012 — 2014</em>
+                  <i class="tl-loc">Angoulême</i>
+                </div>
+              </li>
+              <li class="tl-stop tl-stop-edu" data-experience="bac">
+                <svg class="tl-icon tl-icon-edu" aria-hidden="true"><use href="#icon-book"/></svg>
+                <div class="tl-info">
+                  <strong>Bac Pro &amp; BEP SEN</strong>
+                  <span>Systèmes électroniques numériques</span>
+                  <em>2012</em>
+                  <i class="tl-loc">Formation initiale</i>
+                </div>
+              </li>
+            </ol>
+          </aside>
+        </div>
+        <div class="section-body">
+          <div class="project-grid">
+
+            <article class="project-card" data-experience="media">
+              <header class="project-head">
+                <span class="project-tag">Dépannage</span>
+                <h3>Diagnostic &amp; réparation PC, smartphones, tablettes</h3>
+              </header>
+              <p>
+                Diagnostic matériel et logiciel de PC Windows, smartphones et tablettes,
+                puis remise en service des équipements.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Périmètre</dt><dd>Matériel + logiciel</dd></div>
+                <div><dt>Appareils</dt><dd>PC · Mobiles · Tablettes</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Windows</li><li>Diagnostic</li><li>Smartphones</li><li>Tablettes</li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-experience="media">
+              <header class="project-head">
+                <span class="project-tag">Données</span>
+                <h3>Sauvegarde &amp; migration de données</h3>
+              </header>
+              <p>
+                Sauvegarde et migration des données clients, installation et mise
+                en service de nouveaux équipements.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Étapes</dt><dd>Sauvegarde → Migration</dd></div>
+                <div><dt>Ensuite</dt><dd>Installation &amp; remise en service</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Sauvegarde</li><li>Migration</li><li>Installation</li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-experience="media">
+              <header class="project-head">
+                <span class="project-tag">Sur site</span>
+                <h3>Interventions chez le client</h3>
+              </header>
+              <p>
+                Déplacement chez le client pour dépanner, installer une imprimante
+                réseau ou mettre en place un nouvel équipement.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Lieu</dt><dd>Chez le client</dd></div>
+                <div><dt>Exemple</dt><dd>Imprimante réseau</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Réseau</li><li>Imprimantes</li><li>Déplacement</li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-experience="media">
+              <header class="project-head">
+                <span class="project-tag">Relation client</span>
+                <h3>Accueil, devis &amp; suivi des dossiers</h3>
+              </header>
+              <p>
+                Accueil et conseil, devis, facturation, suivi des dossiers et
+                organisation des interventions.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Du devis…</dt><dd>…à la facture</dd></div>
+                <div><dt>Suivi</dt><dd>Dossiers &amp; planning</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Conseil</li><li>Devis</li><li>Facturation</li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-experience="easycash">
+              <header class="project-head">
+                <span class="project-tag">Gestion de rayon</span>
+                <h3>Rayon téléphonie</h3>
+              </header>
+              <p>
+                Organisation, présentation et mise en valeur des produits du rayon
+                téléphonie, avec réception, contrôle, étiquetage et mise en rayon.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Rôle</dt><dd>Responsable de rayon</dd></div>
+                <div><dt>Flux</dt><dd>Réception → mise en rayon</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Stocks</li><li>Merchandising</li><li>Étiquetage</li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-experience="easycash">
+              <header class="project-head">
+                <span class="project-tag">Remise en état</span>
+                <h3>Nettoyage &amp; conditionnement des appareils</h3>
+              </header>
+              <p>
+                Nettoyage et remise en état esthétique des appareils, conditionnés
+                avec leurs accessoires et chargeurs, puis conseil, négociation et
+                encaissement.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Étapes</dt><dd>Remise en état · Conditionnement</dd></div>
+                <div><dt>Vente</dt><dd>Conseil · Caisse</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Smartphones</li><li>Vente</li><li>Fidélisation</li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-experience="itc">
+              <header class="project-head">
+                <span class="project-tag">Magasin</span>
+                <h3>Gestion autonome du magasin</h3>
+              </header>
+              <p>
+                Ouverture et fermeture, gestion administrative, commandes de pièces
+                et d'accessoires, stocks et inventaires, suivi des objectifs commerciaux.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Autonomie</dt><dd>Ouverture → fermeture</dd></div>
+                <div><dt>Axes</dt><dd>Commerce · Admin · Technique</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Commandes</li><li>Inventaires</li><li>Chiffre d'affaires</li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-experience="itc">
+              <header class="project-head">
+                <span class="project-tag">Réparation</span>
+                <h3>Smartphones, tablettes &amp; consoles</h3>
+              </header>
+              <p>
+                Réparation matérielle et logicielle de smartphones, tablettes et
+                consoles de jeux, avec suivi des interventions.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Appareils</dt><dd>Mobiles · Tablettes · Consoles</dd></div>
+                <div><dt>Type</dt><dd>Matériel + logiciel</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Micro-réparation</li><li>Consoles</li><li>Pièces détachées</li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-experience="cg16">
+              <header class="project-head">
+                <span class="project-tag">Réseau</span>
+                <h3>Administration &amp; supervision réseau</h3>
+              </header>
+              <p>
+                Administration et maintenance de l'infrastructure réseau,
+                supervision des commutateurs sur les sites distants.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Périmètre</dt><dd>Sites distants</dd></div>
+                <div><dt>Équipements</dt><dd>Commutateurs réseau</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Réseau</li><li>Switchs</li><li>Supervision</li>
+              </ul>
+            </article>
+
+            <article class="project-card" data-experience="cg16">
+              <header class="project-head">
+                <span class="project-tag">Sécurité</span>
+                <h3>Antivirus, tickets &amp; prévention</h3>
+              </header>
+              <p>
+                Installation, configuration et mise à jour des antivirus, surveillance
+                de la sécurité des postes, résolution des tickets d'incidents.
+              </p>
+              <dl class="project-metrics">
+                <div><dt>Focus</dt><dd>Prévention des menaces</dd></div>
+                <div><dt>Suivi</dt><dd>Tickets d'incidents</dd></div>
+              </dl>
+              <ul class="tag-list small">
+                <li>Antivirus</li><li>Tickets</li><li>Sécurité</li>
+              </ul>
+            </article>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="section-divider" />
+
+    <!-- CONTACT -->
+    <section id="connect" class="section">
+      <div class="container section-grid">
+        <div class="section-head">
+          <p class="section-kicker">02 · Contact</p>
+          <h2 class="section-title">Me joindre</h2>
+        </div>
+        <div class="section-body">
+          <ul class="connect-list">
+            <li>
+              <span class="connect-label">E-mail</span>
+              <a href="mailto:benjamin.simonnet16@gmail.com">benjamin.simonnet16@gmail.com</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> Benjamin Simonnet.</p>
+      <a href="#top" class="back-top">Haut de page ↑</a>
+    </div>
+  </footer>
+
+  <!-- Chatbot flottant : lanceur + panneau -->
+  <div id="chat-nudge" class="chat-nudge" aria-hidden="true">
+    <span class="chat-nudge-text">Posez-moi vos questions sur Benjamin</span>
+    <span class="chat-nudge-arrow" aria-hidden="true">→</span>
+  </div>
+
+  <button
+    type="button"
+    id="chat-launcher"
+    class="chat-launcher"
+    aria-label="Discuter avec Happy, l'assistant de Benjamin"
+    aria-expanded="false"
+    aria-controls="chat-panel"
+  >
+    <span class="chat-launcher-avatar" aria-hidden="true">😄</span>
+    <span class="chat-launcher-pulse" aria-hidden="true"></span>
+  </button>
+
+  <aside
+    id="chat-panel"
+    class="chat-panel"
+    aria-label="Discussion avec Happy"
+    aria-hidden="true"
+    hidden
+  >
+    <header class="chat-panel-head">
+      <span class="chat-panel-avatar" aria-hidden="true">😄</span>
+      <div class="chat-panel-titles">
+        <strong>Happy</strong>
+        <span>Posez vos questions sur Benjamin</span>
+      </div>
+      <button type="button" id="chat-close" class="chat-close" aria-label="Fermer le chat">×</button>
+    </header>
+
+    <div class="chat" id="chat-widget">
+      <div class="chat-log" id="chat-log" aria-live="polite">
+        <div class="chat-msg chat-msg-bot">
+          <span class="chat-avatar" aria-label="Happy">😄</span>
+          <div class="chat-bubble">
+            <p>Bonjour, je suis <strong>Happy</strong> — l'assistant IA de Benjamin, nourri de son CV.</p>
+            <p>Demandez-moi :</p>
+            <ul>
+              <li>Ses expériences chez <strong>Media Concept</strong>, <strong>Easy Cash</strong> ou <strong>ITC Phone</strong></li>
+              <li>Ses compétences en <em>dépannage</em>, <em>réseau</em> et <em>relation client</em></li>
+              <li>Sa formation et ses centres d'intérêt</li>
+            </ul>
+            <p>Que voulez-vous savoir ?</p>
+          </div>
+        </div>
+      </div>
+      <form class="chat-input" id="chat-form" autocomplete="off">
+        <input
+          type="text"
+          id="chat-text"
+          name="chat-text"
+          placeholder="Posez une question…"
+          aria-label="Posez une question"
+          maxlength="500"
+          required
+        />
+        <button type="submit" class="btn btn-primary">Envoyer</button>
+      </form>
+      <p class="chat-hint" id="chat-hint"></p>
+      <ul class="chat-suggestions">
+        <li><button type="button" class="chip" data-q="Que faisait Benjamin chez ITC Phone ?">Que faisait Benjamin chez ITC Phone ?</button></li>
+        <li><button type="button" class="chip" data-q="Quelles sont ses compétences en réseau ?">Quelles sont ses compétences en réseau ?</button></li>
+        <li><button type="button" class="chip" data-q="Quels sont ses centres d'intérêt ?">Quels sont ses centres d'intérêt ?</button></li>
+      </ul>
+    </div>
+  </aside>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/chatbot.js"></script>
+</body>
+</html>

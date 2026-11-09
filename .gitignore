@@ -1,0 +1,9 @@
+.DS_Store
+node_modules/
+.wrangler/
+.dev.vars
+*.log
+
+# Source portrait — only the resized web copy in assets/ is committed
+/raw.jpg
+.worktrees
