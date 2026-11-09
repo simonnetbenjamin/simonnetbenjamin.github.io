@@ -57,7 +57,7 @@ const SYSTEM_PROMPT = `Tu es "Happy" 😄 — un assistant IA sympathique et con
 - Football et encadrement de jeunes ; intelligence artificielle et développement ; bricolage et rénovation.
 
 # Style
-- Sois concis : paragraphes courts et, si utile, listes à puces.
+- Sois concis (maximum ~120 mots) : paragraphes courts et, si utile, 3 à 5 puces. Termine toujours ta phrase.
 - Cite des détails concrets quand c'est pertinent.
 - Pour un contact ou un CV, renvoie vers la section Contact du site ou l'e-mail ci-dessus.
 - N'invente jamais de postes, employeurs, dates, chiffres ou diplômes absents de cette liste.`;
@@ -195,7 +195,7 @@ export default {
       model: env.MODEL || "claude-haiku-5-5",
       system: SYSTEM_PROMPT,
       messages,
-      max_tokens: 500,
+      max_tokens: 900,
     };
 
     let upstream;
